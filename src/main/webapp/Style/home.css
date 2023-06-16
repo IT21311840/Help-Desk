@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+
+
+
+.raiseticket-btn {
+    width: 50%;
+    margin-left: 25%;
+    background-color: #191f45;
+    color: white;
+    /* background-color: green; */
+}
+
+.raiseticket-btn:hover , .search-btn:hover {
+    background-color: #d8bfd8 ;
+    color: black;
+    border: 1px solid #d8bfd8;
+}
+
+
+.stat-content {
+    text-align: center;
+    padding: auto;
+    width: 100%;
+    padding-left: 21%;
+    margin-top: 20px;
+}
+
+.stats {
+    background-color: #d8bfd8;
+    color: #4C4E52;
+    width: 80%;
+    margin-right: 5px;
+    border-radius: 5px;
+    height: 200px;
+    padding-top: 90px; 
+
+}
+
+.welcome-msg , .general-supports , .about-us , .terms-cond {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.welcome-msg {
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+}
+
+.general-supports {
+    border-top: 1px solid white;
+    margin-top: 30px;
+}
+.search-container {
+    width: 100%;
+}
+.search-box {
+    width: 100%;
+    padding-left: 21%;
+}
+
+.search-text {
+    border-radius: 5px;
+    border: 1px solid #7393B3;
+    height: 35px;
+}
+
+.search-btn {
+    height: 35px;
+    padding-top: 0;
+    background-color: #191f45;
+    color: white;
+
+}
+.about-us , .terms-cond {
+    border-top: 1px solid white;
+    margin-top: 30px;
+}
+
+.terms-cond {
+    margin-bottom: 20px;
+}
+

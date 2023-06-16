@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+.header {
+    background-color: #191f45;
+    height: 60px;
+    margin-bottom: 0;
+    padding-left: 20px;
+    position: fixed;
+    width: 110%;
+    z-index: +1;
+    color: white;
+}
+
+
+
+
+.navigation {
+    margin-top: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: +1;
+    background-color:#d8bfd8 ;
+}
+
+.navigation a {
+    color: black;
+}
+
+
+.content {
+    margin-top: 110px;
+    background-color: #F0F0F0;
+    padding: 0;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 102%;
+    min-height: 600px;
+}
+
+.footer{
+    background-color: #191f45;
+    color: whitesmoke;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: +1;
+}

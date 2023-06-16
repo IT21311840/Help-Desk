@@ -1,0 +1,265 @@
+@charset "ISO-8859-1";
+
+.header {
+    background-color: #191f45;
+    height: 60px;
+    margin-bottom: 0;
+    padding-left: 20px;
+    position: fixed;
+    width: 110%;
+    z-index: +2;
+    color: white;
+}
+.left-nav {
+    margin-top: 110px;
+    position: -webkit-sticky;
+    position: fixed;
+   
+    height: 650px;
+    background-color: #191f45;
+    z-index: +1;
+ 
+   
+}
+.types{
+    background-color: #191f45;
+    color: white;
+    padding: 0;
+    height: 100%;
+    width: 200px ;
+    padding-top: 6px;
+    font-size: large;
+    z-index: +1;
+    
+
+}
+
+.types ul{
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0%;
+}
+
+.types a {
+    text-decoration: none;
+}
+
+.types a li{
+    width: 100%;
+    color: aliceblue;
+    padding-left: 10%;
+    margin-left: 0;
+    padding-bottom: 5px;
+    
+    
+}
+
+
+.types li:hover {
+    background-color: #F0F0F0;
+    color: black;
+    text-decoration: none;
+}
+
+.active  {
+    background-color: #F0F0F0;
+    color: black;
+}
+
+
+
+.navigation {
+    margin-top: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: +2;
+    background-color: #d8bfd8 ;
+}
+
+
+/* .nav-bar {
+    background-color: #505050;
+    padding: 0;
+    height: 700px;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0;
+}
+
+.nav-bar a li {
+    width: 100%;
+    padding-left: 10px;
+    margin-left: 0;
+    color: aliceblue;
+}
+.nav-bar a {
+    text-decoration: none;
+}
+
+.nav-bar li:hover {
+    background-color: gray;
+    color: white;
+} */
+
+
+.navigation a {
+    color: black;
+}
+
+.content {
+    margin-top: 110px;
+    margin-left: 250px;
+    margin-right: 0;
+    background-color: #F0F0F0;
+    padding: 0;
+    padding-right: 20px;
+    width: 100%;
+    min-height: 650px;
+
+    z-index: 0;
+
+}
+
+.tickets {
+    list-style-type: none;
+}
+.ticket-row {
+    border: 1px solid white;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    
+    
+}
+.message {
+    display: block;
+    height: 50px;
+    width: 80%;
+    overflow: hidden;
+    border-right: 1px solid white;
+}
+.time-date {
+    border-right: 1px solid white;
+    vertical-align: auto;
+    text-align: center;
+    font-size: small;
+    line-height: 2px;
+    padding-top: 10px;
+}
+
+.search-row {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ticket-row:hover {
+    background-color: #DCDCDC;
+}
+
+.delete-btn {
+    width: 100%;
+    font-size: x-small;
+    background-color: #AA0000;
+}
+
+.open-btn {
+    width: 100%;
+    font-size: smaller;
+    background-color: #191f45;
+}
+
+.search-btn {
+    background-color: #191f45;
+    color: white;
+    border-radius: 5px;
+}
+
+.search-text {
+    background-color: #d8bfd8;
+    border: 1px solid #d8bfd8;
+}
+
+.delete-btn:hover {
+    background-color: #d8bfd8;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #d8bfd8;
+}
+
+.open-btn:hover {
+    background-color: #d8bfd8;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #d8bfd8;
+}
+
+.search-btn:hover {
+    background-color: #d8bfd8;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #d8bfd8;
+}
+
+.heading-row {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border-bottom: 1px solid white;
+}
+
+.footer {
+
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 101.75% ;
+
+    background-color: #d8bfd8;
+}
+
+.login{
+    right: 230px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Lucida Handwriting;
+    font-weight: bold;
+    background-color: #d8bfd8;
+    width:100px;
+  }
+  
+  .signup{
+    right: 100px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Lucida Handwriting;
+    font-weight: bold;
+    background-color: #d8bfd8;
+    width:100px;
+  }
+ 
+ /* .login:hover{
+    background: #191f45;
+  }
+
+  .signup:hover{
+    background: #191f45;
+    color:white;
+  }*/
+
+
+
+img{
+    position: absolute;
+    right:60px;
+}
+a:link{
+    text-decoration: none;
+  }
+  
+
+
